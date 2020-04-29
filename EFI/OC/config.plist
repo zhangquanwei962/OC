@@ -291,7 +291,7 @@
 			<key>ProtectUefiServices</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
-			<true/>
+			<false/>
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>SetupVirtualMap</key>
@@ -832,9 +832,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -842,7 +840,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<false/>
+			<true/>
 			<key>HideSelf</key>
 			<false/>
 			<key>PickerAttributes</key>
@@ -879,11 +877,11 @@
 		<array>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>Windows 10</string>
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string>Windows </string>
+				<string>Windows</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
@@ -943,11 +941,11 @@
 				<key>Arguments</key>
 				<string>Shutdown</string>
 				<key>Auxiliary</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string>Perform shutdown</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Shutdown</string>
 				<key>Path</key>
